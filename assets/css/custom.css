@@ -1,0 +1,122 @@
+.logowidth {
+    width: 7rem;
+}
+
+.bg-body-v {
+    background-color: rgba(36, 66, 189, .13);
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.help-icon {
+    display: flex;
+    align-items: center;
+}
+
+.footer-user-menu {
+    margin-right: -2rem!important;
+    margin-bottom: 1rem!important;
+}
+
+.brief-clr {
+    color: #2442bd!important;
+}
+
+.pr-2 {
+    padding-right: 2rem;
+}
+
+.pl-2 {
+    padding-left: 2rem;
+}
+
+/* Style for the card background */
+.card-bg {
+    background: url('file:///Users/parthgaikwad/Documents/exalt/Dashboard/assets/media/stock/600x600/img-39.jpg');
+    height: 200px;
+    background-size: cover;
+    position: relative; /* Ensure relative positioning for absolute gradient */
+    align-items: flex-end;
+}
+
+/* Gradient overlay for the footer */
+.card-bg::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-radius: calc(0.625rem - 1px);
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.94)); /* Adjust gradient colors and transparency as needed */
+}
+.card-blue-bg {
+    background: #f0f2fa;
+}
+
+.z1 {
+    z-index: 1;
+}
+
+.download-brief {
+ 
+    background: #f0f2fa;
+    border: 1px solid #f0f2fa;
+    padding: 0.5rem 0.7rem 0.5rem 0.7rem;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+
+.download-brief:hover {
+ 
+    background: transparent;
+    border: 1px solid #f0f2fa;
+    padding: 0.5rem 0.7rem 0.5rem 0.7rem;
+    border-radius: 50px;
+}
+
+.download-brief:hover .download-icon {
+    color: #fff!important; /* Change to the color you want on hover */
+}
+
+.download-icon {
+    color: #2442bd!important;
+}
+
+.lineh {
+    line-height: 1.8rem!important;
+}
+
+.help-flex {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.modal-close {
+  
+    background: #630012;
+    border-radius: 20px;
+    padding: 0.6rem 0.7rem 0.6rem 0.6rem;
+}
+
+.width100 {
+    width: 100%;
+}
+
+.btn.btn-help {
+    color: #fff;
+    border-color: rgb(51, 51, 51);
+    background-color: rgb(51, 51, 51);
+}
+
+.btn.btn-help:hover {
+    background-color: rgba(51, 51, 51, 0.85);
+}
+
+.openh:hover {
+    color: #fff!important;
+}

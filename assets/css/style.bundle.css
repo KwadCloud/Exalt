@@ -60031,7 +60031,7 @@ body {
 }
 
 .app-blank {
-    background-color: var(--bs-app-blank-bg-color)
+    background: url(../media/exalt_images/ExaltWebsiteBg.svg);
 }
 
 [data-kt-app-reset-transition=true] * {

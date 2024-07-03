@@ -60031,7 +60031,8 @@ body {
 }
 
 .app-blank {
-    background: url(../media/exalt_images/ExaltWebsiteBg.svg);
+    background-size: 20px 20px;
+    background-image: linear-gradient(to right, #e1e1ef 1px, transparent 1px), linear-gradient(to bottom, #e1e1ef 1px, #ebebf5 1px);
 }
 
 [data-kt-app-reset-transition=true] * {
